@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class = "profileh">
+    <header>
+        <img src="{{url_for('static', filename = 'profilepic.jpeg')}}"alt="">
+        <div class = "myname">
+            <h1>Jantae Leckie</h1>
+        </div>
+        <div class = "myinfo">
+            <h5>@jaleckie</h5>
+            <h5>St.Catherine, Jamaica</h5>
+            <h5>Joined - {{d}} </h5>
+        </div>
+    </header>
+    <main>
+        <p>
+            I am a 2nd year university student who is studying Computer Science and Geography. I am a smart
+            and talented woman who enjoys web programming. More specifically backend web development.
+            Contact me via my profile if you would like to collaberate together. 
+        </p>
+        <div class="flex-container">
+            <div class = "div1">6 <br> Posts</div>
+            <div class = "div2">100 <br> Following</div>
+            <div class = "div3">350 <br> Followers</div>
+        </div>
+        <button type="button" id="follow">Follow</button>
+        
+    </main>
+</div>
+
+{% endblock %}

@@ -1,3 +1,66 @@
 body {
     padding-top: 5rem;
 }
+.profileh{
+    justify-content: center;
+}
+.profileh header{
+    background-color: rgb(10, 51, 165);
+    padding: 5px;
+    margin: 2px;
+    justify-content: center;
+    text-align: center;
+}
+.myname{
+    color: white;
+}
+.myinfo{
+    color: darkgray;
+}
+.profileh main{
+    background-color: rgb(163, 183, 238);
+    padding: 20px 10px;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    justify-content: space-around;
+    margin: 20px 30px;
+}
+.flex-container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 5px;
+    grid-template-areas: "div1" "div2" "div3" ;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+}
+.div1{
+    grid-area: "div1";
+}
+.div2{
+    grid-area: "div2";
+}
+.div3{
+    grid-area: "div3";
+}
+button{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #48bb78;
+    border-radius: 5px;
+    padding: 10px 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.profileh img{
+    border-radius: 40%;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+}
